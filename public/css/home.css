@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.banner{
+    height: 70vh;
+    background-image: url('img/banner.jpeg');
+    background-size: cover;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.banner::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(60, 60, 19, 0.5);
+}
+.banner h2{
+    color: white;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid white;
+    text-align: center;
+}
+section{
+    padding: 50px 0px;
+
+}
+/* about */
+ h3{
+    text-align: center;
+    padding: 20px 0;
+    color:  #7f8584;
+    margin-bottom: 20px;
+}
+.about p{
+    color:  #276b62;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+}
+/* footer */
+footer{
+    padding-bottom: 10px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+/* tunggu */
+.tunggu{
+    height: 70vh;
+    background-color: wheat;
+    background-size: cover;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.cover{
+    background: rgba(128, 94, 44, 0.5);
+}
+
+h3{
+    text-align: center;
+    padding: 15px 0;
+    color:  wheat;
+    margin-bottom: 10px;
+    background-image: url('img/bgcoklat.jpg');
+    border-radius: 40px;
+    width: 30% ;
+    margin-top: 10px;
+    margin-left: 35%;    
+}
+
+section {
+    padding: 40px 0;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.contact{
+    background-color:#d6d2c4;
+    margin-bottom: 5%;
+
+}
+
+.opsi{
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+
+.container2{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container2::after{
+    content: '';
+    display: block;
+    clear: both;    
+}
+
+.contact2{
+    background-color:#d6d2c4;   
+}
+
+.sosmed{
+    width: 33%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+    font-size: 20px;
+    list-style-type: none;
+    color: black;
+}
+
+.sosmed .ig{
+    color: crimson;
+    font-family: 'Trebuchet MS';
+    font-style: italic;
+}
+
+.sosmed .fb{
+    color: blue;
+    font-family: 'Trebuchet MS';
+    font-style: bold;
+}
+
+.sosmed .tw{
+    color: #00acee;
+    font-family: 'Trebuchet MS';
+    font-style: oblique;
+}
+footer{
+    padding-bottom: 10px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
